@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Homework1</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</head>
+
+<body>
+    <div id="root"></div>
+    <script>
+        var divRef = React.createElement("div", {className:"parentdiv"}, [React.createElement("h1", {className: "h1ref"},"Topics covered"), React.createElement("h6", { className: "h6ref" }, "The following is a list of all the topics we cover in the MDN learning area."),
+        React.createElement("a", {href: "#"}, "Getting started with the web"),
+        React.createElement("p", {className: "p1"}, "Provides a practical introduction to web development for complete beginners"),
+        React.createElement("a", {href: "#"}, "HTML - Structuring the web"),
+        React.createElement("p", { className: "p1" }, "HTML is the language that we use to structure the different pasrts of our content and define what their meaning or purpose is.This topic teaches HTML in detail."),
+        React.createElement("a", {href: "#"}, "CSS - Styling the web"),
+        React.createElement("p", {className: "p1"}, "CSS is the language that we use to control our web content style and layout,as well as adding behavior like animation.This topic provodes comprehensive coverage of CSS.")]);
+
+        ReactDOM.render(divRef, document.getElementById("root"));
+
+
+    </script>
+
+</body>
+
+</html>

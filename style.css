@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+
+.parentdiv{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+
+    
+}
+
+.h1ref{
+    font-size: 30px;
+    padding: 10px 10px;
+}
+
+.h6ref{
+    font-size: 20px;
+    padding: 10px 10px;
+
+}
+
+.h5head{
+    text-decoration: underline;
+    color: rgb(81, 81, 240);
+    font-size: 20px;
+    padding: 10px 10px;
+}
+
+.p1{
+    font-size: large;
+    padding: 10px 10px;
+    
+}
+a{
+    font-size: 20px;
+}
